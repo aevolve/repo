@@ -1,0 +1,17 @@
+<addon id="skin.aevolve.kodi" version="1.1.1" name="Aevolve Skin" provider-name="aevolve">
+  <requires>
+    <import addon="xbmc.gui" version="5.3.0"/>
+    <import addon="script.favourites" version="4.0.4"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    defaultthemename="Textures.xbt"
+    debugging="false">
+    <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Quartz Reskin</summary>
+    <description lang="en">Reskin of Quartz Skin. Inspired by Apple TV interface Quartz brings easy to use, fast and flexible user interface. If you believe that sometimes less means more, you might feel right at home with Quartz. Main Skin graphics by Baswazz.</description>
+  </extension>
+</addon>
